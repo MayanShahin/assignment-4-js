@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353F;
+}
+section{
+    background-color: #24353F;
+}
+.container1{
+    width: 65%;
+}
+.system{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h2{
+    color: #17A2B8;
+    font-size: 2.3rem;
+}
+input{
+    background-color: transparent;
+}
+button{
+    width: 722px;
+    margin-top: 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

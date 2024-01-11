@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Amatic+SC:wght@400;700&family=Dancing+Script&family=Montserrat:wght@100;400;500;600;800&family=Pacifico&family=Poppins:wght@400;700&family=Righteous&family=Roboto:wght@100;300;400&family=Source+Sans+3:wght@300;400;700&family=Tajawal&display=swap" rel="stylesheet"></head>
+<body>
+   <section class=" d-flex align-items-center justify-content-center">
+    <div class="container1 my-5 text-center">
+    <div class="system w-100 p-5 border-0 ">
+        <h2>Smart Login System</h2>
+        <div class="mb-0 pb-0 d-none" id="enterName">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control bg-transparent text-white" placeholder="Enter name">
+        </div>
+        <div class="mb-0 pb-0">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control bg-transparent text-white" id="loginMail" placeholder="Enter your email">
+          </div>
+        <div class="mb-4">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="password" class="form-control bg-transparent text-white" id="loginPass" placeholder="Enter your password">
+        </div>
+        <button type="button" class="btn btn-outline-info d-block" id="inBtn" onclick="login()">login</button>
+        <button type="button" class="btn btn-outline-info d-none" id="upBtn" onclick="signup()">sign up</button>
+
+        <div class="text d-flex justify-content-center align-items-center text-white mt-3">
+        <p class="m-0 pe-2">Don’t have an account?</p>
+        <a href="welcome.html" class="text-white" id="signInAnchor" onclick="reverseAnchorText()">Sign Up</a>
+    </div>
+    </div>
+    </div>
+   </section>
+   <div class="page d-none">
+   <h1>Welcome!</h1>
+   <div id="welcomeMessage" ></div>
+   </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
